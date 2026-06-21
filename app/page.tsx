@@ -1,19 +1,11 @@
-import Link from "next/link";
-import React from "react";
+import Hero from "@/components/Hero";
+import AboutSection from "@/components/AboutSection";
 
-const page = () => {
+export default function Page() {
   return (
-    <div>
-      Demo Project to check deploy opn firebase <br />
-      <Link href="/about" className="text-blue-500 hover:underline">
-        About Us
-      </Link>
-      <br />
-      <Link href="/contact" className="text-blue-500 hover:underline">
-        Contact Us
-      </Link>
-    </div>
+    <>
+      <Hero />
+      <AboutSection />
+    </>
   );
-};
-
-export default page;
+}
