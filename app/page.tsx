@@ -8,6 +8,10 @@ const page = () => {
       <Link href="/about" className="text-blue-500 hover:underline">
         About Us
       </Link>
+      <br />
+      <Link href="/contact" className="text-blue-500 hover:underline">
+        Contact Us
+      </Link>
     </div>
   );
 };
